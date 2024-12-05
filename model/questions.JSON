@@ -1,0 +1,734 @@
+{
+    "questions": [
+        {
+            "question": "¿De qué color es esta fruta?",
+            "image_path": "images/apple.png",
+            "options": ["Rojo", "Verde", "Amarillo", "Naranja"],
+            "correct_answer": "Rojo",
+            "category": "Colores"
+        },
+        {
+            "question": "¿Cuánto es 2 + 2?",
+            "image_path": "images/2plus2.png",
+            "options": ["3", "4", "5", "6"],
+            "correct_answer": "4",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué fruta es esta?",
+            "image_path": "images/banana.png",
+            "options": ["Manzana", "Plátano", "Pera", "Uva"],
+            "correct_answer": "Plátano",
+            "category": "Alimentos"
+        },
+        {
+            "question": "¿Planeta más cerca del Sol?",
+            "image_path": "images/mercury.png",
+            "options": ["Venus", "Marte", "Tierra", "Mercurio"],
+            "correct_answer": "Mercurio",
+            "category": "Ciencias"
+        },
+        {
+            "question": "¿Qué monumento es este?",
+            "image_path": "images/eiffel_tower.png",
+            "options": ["Torre Eiffel", "Coliseo", "Muralla", "Big Ben"],
+            "correct_answer": "Torre Eiffel",
+            "category": "Geografía"
+        },
+        {
+            "question": "¿Color al mezclar rojo y amarillo?",
+            "image_path": "images/orange.png",
+            "options": ["Verde", "Naranja", "Morado", "Azul"],
+            "correct_answer": "Naranja",
+            "category": "Arte"
+        },
+        {
+            "question": "¿Quién pintó la Mona Lisa?",
+            "image_path": "images/mona_lisa.png",
+            "options": ["Van Gogh", "Da Vinci", "Picasso", "Miguel Ángel"],
+            "correct_answer": "Da Vinci",
+            "category": "Arte"
+        },
+        {
+            "question": "Sinónimo de 'grande'?",
+            "image_path": "images/synonym.png",
+            "options": ["Pequeño", "Gigante", "Lento", "Fácil"],
+            "correct_answer": "Gigante",
+            "category": "Español"
+        },
+        {
+            "question": "¿Año en que Colón llegó a América?",
+            "image_path": "images/columbus.png",
+            "options": ["1492", "1519", "1810", "1910"],
+            "correct_answer": "1492",
+            "category": "Historia"
+        },
+        {
+            "question": "¿Cuánto es 9 + 6?",
+            "image_path": "images/math_sum.png",
+            "options": ["14", "15", "16", "17"],
+            "correct_answer": "15",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué es un adjetivo?",
+            "image_path": "images/adjective.png",
+            "options": [
+                "Describe sustantivos",
+                "Indica acción",
+                "Conecta oraciones",
+                "Sustituye nombres"
+            ],
+            "correct_answer": "Describe sustantivos",
+            "category": "Español"
+        },
+        {
+            "question": "Antónimo de 'valiente'?",
+            "image_path": "images/antonym.png",
+            "options": ["Cobarde", "Fuerte", "Héroe", "Temerario"],
+            "correct_answer": "Cobarde",
+            "category": "Español"
+        },
+        {
+            "question": "¿Año de la independencia de México?",
+            "image_path": "images/independence.png",
+            "options": ["1810", "1815", "1821", "1857"],
+            "correct_answer": "1821",
+            "category": "Historia"
+        },
+        {
+            "question": "¿Resultado de 12 x 8?",
+            "image_path": "images/multiplication.png",
+            "options": ["86", "96", "108", "112"],
+            "correct_answer": "96",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿País más grande de Sudamérica?",
+            "image_path": "images/south_america.png",
+            "options": ["Argentina", "Brasil", "Chile", "Perú"],
+            "correct_answer": "Brasil",
+            "category": "Geografía"
+        },
+        {
+            "question": "Planeta con anillos visibles",
+            "image_path": "images/saturn.png",
+            "options": ["Júpiter", "Urano", "Saturno", "Neptuno"],
+            "correct_answer": "Saturno",
+            "category": "Ciencias"
+        },
+        {
+            "question": "¿Río más largo del mundo?",
+            "image_path": "images/river.png",
+            "options": ["Nilo", "Amazonas", "Yangtsé", "Misisipi"],
+            "correct_answer": "Amazonas",
+            "category": "Geografía"
+        },
+        {
+            "question": "¿Qué expresa el modo subjuntivo?",
+            "image_path": "images/subjunctive.png",
+            "options": [
+                "Deseo o posibilidad",
+                "Acción pasada",
+                "Une oraciones",
+                "Funciona como adjetivo"
+            ],
+            "correct_answer": "Deseo o posibilidad",
+            "category": "Español"
+        },
+        {
+            "question": "¿Año de la Primera Guerra Mundial?",
+            "image_path": "images/ww1.png",
+            "options": ["1914", "1939", "1918", "1921"],
+            "correct_answer": "1914",
+            "category": "Historia"
+        },
+        {
+            "question": "¿Qué país conquistó México?",
+            "image_path": "images/conquest.png",
+            "options": ["Francia", "España", "Inglaterra", "Portugal"],
+            "correct_answer": "España",
+            "category": "Historia"
+        },
+        {
+            "question": "¿144 dividido entre 12?",
+            "image_path": "images/division.png",
+            "options": ["10", "12", "14", "16"],
+            "correct_answer": "12",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Océano más grande del mundo?",
+            "image_path": "images/pacific_ocean.png",
+            "options": ["Atlántico", "Índico", "Pacífico", "Ártico"],
+            "correct_answer": "Pacífico",
+            "category": "Geografía"
+        },
+        {
+            "question": "¿Cuántos días tiene una semana?",
+            "image_path": "images/questionMark.png",
+            "options": ["5", "6", "7", "8"],
+            "correct_answer": "7",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué animal hace 'miau'?",
+            "image_path": "images/questionMark.png",
+            "options": ["Perro", "Gato", "Caballo", "Vaca"],
+            "correct_answer": "Gato",
+            "category": "Animales"
+        },
+        {
+            "question": "¿Cuántos dedos tiene una mano?",
+            "image_path": "images/questionMark.png",
+            "options": ["4", "5", "6", "3"],
+            "correct_answer": "5",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué forma tiene un círculo?",
+            "image_path": "images/questionMark.png",
+            "options": ["Cuadrado", "Redondo", "Triangular", "Rectangular"],
+            "correct_answer": "Redondo",
+            "category": "Formas"
+        },
+        {
+            "question": "¿Qué come un conejo?",
+            "image_path": "images/questionMark.png",
+            "options": ["Carne", "Zanahoria", "Pescado", "Huevos"],
+            "correct_answer": "Zanahoria",
+            "category": "Animales"
+        },
+        {
+            "question": "¿Cuántas ruedas tiene un triciclo?",
+            "image_path": "images/questionMark.png",
+            "options": ["2", "3", "4", "5"],
+            "correct_answer": "3",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué usa un bombero para apagar fuego?",
+            "image_path": "images/questionMark.png",
+            "options": ["Martillo", "Manguera", "Cuchillo", "Escoba"],
+            "correct_answer": "Manguera",
+            "category": "Profesiones"
+        },
+        {
+            "question": "¿Qué fruta es roja y redonda?",
+            "image_path": "images/questionMark.png",
+            "options": ["Plátano", "Manzana", "Pera", "Naranja"],
+            "correct_answer": "Manzana",
+            "category": "Alimentos"
+        },
+        {
+            "question": "¿Qué usa un doctor?",
+            "image_path": "images/questionMark.png",
+            "options": ["Martillo", "Estetoscopio", "Libro", "Computadora"],
+            "correct_answer": "Estetoscopio",
+            "category": "Profesiones"
+        },
+        {
+            "question": "¿Cuántas patas tiene un perro?",
+            "image_path": "images/questionMark.png",
+            "options": ["2", "3", "4", "5"],
+            "correct_answer": "4",
+            "category": "Animales"
+        },
+        {
+            "question": "¿Qué color sale al mezclar azul y amarillo?",
+            "image_path": "images/questionMark.png",
+            "options": ["Rojo", "Verde", "Naranja", "Morado"],
+            "correct_answer": "Verde",
+            "category": "Colores"
+        },
+        {
+            "question": "¿Qué usa un pescador?",
+            "image_path": "images/questionMark.png",
+            "options": ["Pincel", "Computadora", "Caña de pescar", "Libro"],
+            "correct_answer": "Caña de pescar",
+            "category": "Profesiones"
+        },
+        {
+            "question": "¿Cómo se llama el bebé de un gato?",
+            "image_path": "images/questionMark.png",
+            "options": ["Cachorro", "Pollito", "Gatito", "Osezno"],
+            "correct_answer": "Gatito",
+            "category": "Animales"
+        },
+        {
+            "question": "¿Qué hace un maestro?",
+            "image_path": "images/questionMark.png",
+            "options": ["Cocina", "Enseña", "Pesca", "Construye"],
+            "correct_answer": "Enseña",
+            "category": "Profesiones"
+        },
+        {
+            "question": "¿Cuántas letras tiene el abecedario?",
+            "image_path": "images/questionMark.png",
+            "options": ["24", "26", "28", "30"],
+            "correct_answer": "27",
+            "category": "Español"
+        },
+        {
+            "question": "¿Qué va después del número 10?",
+            "image_path": "images/questionMark.png",
+            "options": ["9", "11", "12", "20"],
+            "correct_answer": "11",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué se usa para comer sopa?",
+            "image_path": "images/questionMark.png",
+            "options": ["Tenedor", "Cuchara", "Cuchillo", "Palillos"],
+            "correct_answer": "Cuchara",
+            "category": "Vida Cotidiana"
+        },
+        {
+            "question": "¿Cuántos meses tiene un año?",
+            "image_path": "images/questionMark.png",
+            "options": ["10", "11", "12", "13"],
+            "correct_answer": "12",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué fruta es verde por fuera y roja por dentro?",
+            "image_path": "images/questionMark.png",
+            "options": ["Manzana", "Sandía", "Pera", "Kiwi"],
+            "correct_answer": "Sandía",
+            "category": "Alimentos"
+        },
+        {
+            "question": "¿Cómo se llama el bebé de un caballo?",
+            "image_path": "images/questionMark.png",
+            "options": ["Cordero", "Ternero", "Potro", "Cachorro"],
+            "correct_answer": "Potro",
+            "category": "Animales"
+        },
+        {
+            "question": "¿Qué se necesita para hacer un dibujo?",
+            "image_path": "images/questionMark.png",
+            "options": ["Cuchara", "Lápiz", "Tenedor", "Regla"],
+            "correct_answer": "Lápiz",
+            "category": "Arte"
+        },
+        {
+            "question": "¿Cuántas estaciones tiene el año?",
+            "image_path": "images/questionMark.png",
+            "options": ["2", "3", "4", "5"],
+            "correct_answer": "4",
+            "category": "Ciencias"
+        },
+        {
+            "question": "¿Qué sale del grifo?",
+            "image_path": "images/questionMark.png",
+            "options": ["Leche", "Jugo", "Agua", "Té"],
+            "correct_answer": "Agua",
+            "category": "Vida Cotidiana"
+        },
+        {
+            "question": "¿Qué usa un cartero?",
+            "image_path": "images/questionMark.png",
+            "options": ["Martillo", "Sobre", "Pintura", "Libro"],
+            "correct_answer": "Sobre",
+            "category": "Profesiones"
+        },
+        {
+            "question": "¿Qué animal tiene rayas y es muy rápido?",
+            "image_path": "images/questionMark.png",
+            "options": ["León", "Tigre", "Elefante", "Jirafa"],
+            "correct_answer": "Tigre",
+            "category": "Animales"
+        },
+        {
+            "question": "¿Qué palabra significa lo contrario de grande?",
+            "image_path": "images/questionMark.png",
+            "options": ["Mediano", "Pequeño", "Gigante", "Alto"],
+            "correct_answer": "Pequeño",
+            "category": "Español"
+        },
+        {
+            "question": "¿Cuántas vocales hay?",
+            "image_path": "images/questionMark.png",
+            "options": ["3", "4", "5", "6"],
+            "correct_answer": "5",
+            "category": "Español"
+        },
+        {
+            "question": "¿Con qué se lavan los dientes?",
+            "image_path": "images/questionMark.png",
+            "options": ["Jabón", "Cepillo", "Toalla", "Peine"],
+            "correct_answer": "Cepillo",
+            "category": "Salud"
+        },
+        {
+            "question": "¿Qué usa un cocinero?",
+            "image_path": "images/questionMark.png",
+            "options": ["Pincel", "Martillo", "Cuchara", "Computadora"],
+            "correct_answer": "Cuchara",
+            "category": "Profesiones"
+        },
+        {
+            "question": "¿Qué día viene después del lunes?",
+            "image_path": "images/questionMark.png",
+            "options": ["Domingo", "Miércoles", "Martes", "Jueves"],
+            "correct_answer": "Martes",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué animal hace 'mu'?",
+            "image_path": "images/questionMark.png",
+            "options": ["Caballo", "Cerdo", "Vaca", "Oveja"],
+            "correct_answer": "Vaca",
+            "category": "Animales"
+        },
+        {
+            "question": "¿Qué usamos para dormir?",
+            "image_path": "images/questionMark.png",
+            "options": ["Mesa", "Silla", "Cama", "Armario"],
+            "correct_answer": "Cama",
+            "category": "Vida Cotidiana"
+        },
+        {
+            "question": "¿Qué sale cuando llueve?",
+            "image_path": "images/questionMark.png",
+            "options": ["Sol", "Nieve", "Agua", "Viento"],
+            "correct_answer": "Agua",
+            "category": "Ciencias"
+        },
+        {
+            "question": "¿Qué se usa para cortar el pelo?",
+            "image_path": "images/questionMark.png",
+            "options": ["Peine", "Martillo", "Tijeras", "Regla"],
+            "correct_answer": "Tijeras",
+            "category": "Vida Cotidiana"
+        },
+        {
+            "question": "¿Cuántas provincias tiene España?",
+            "image_path": "images/questionMark.png",
+            "options": ["17", "50", "52", "54"],
+            "correct_answer": "50",
+            "category": "Geografía"
+        },
+        {
+            "question": "¿Cuántos planetas hay en el sistema solar?",
+            "image_path": "images/questionMark.png",
+            "options": ["7", "8", "9", "10"],
+            "correct_answer": "8",
+            "category": "Ciencias"
+        },
+        {
+            "question": "¿Cuál es el río más largo de España?",
+            "image_path": "images/questionMark.png",
+            "options": ["Ebro", "Guadalquivir", "Tajo", "Duero"],
+            "correct_answer": "Tajo",
+            "category": "Geografía"
+        },
+        {
+            "question": "¿Qué significa la palabra 'simétrico'?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Que tiene dos partes iguales", 
+                "Que es muy grande", 
+                "Que cambia de color", 
+                "Que suena fuerte"
+            ],
+            "correct_answer": "Que tiene dos partes iguales",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Cuántos segundos hay en un minuto?",
+            "image_path": "images/questionMark.png",
+            "options": ["30", "45", "60", "75"],
+            "correct_answer": "60",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué es un ecosistema?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Un lugar donde viven personas", 
+                "Un grupo de animales", 
+                "Un sistema de seres vivos que interactúan", 
+                "Un tipo de máquina"
+            ],
+            "correct_answer": "Un sistema de seres vivos que interactúan",
+            "category": "Ciencias"
+        },
+        {
+            "question": "¿Cuál es la capital de Cataluña?",
+            "image_path": "images/questionMark.png",
+            "options": ["Madrid", "Valencia", "Barcelona", "Girona"],
+            "correct_answer": "Barcelona",
+            "category": "Geografía"
+        },
+        {
+            "question": "¿Qué es un sustantivo?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Una palabra que describe", 
+                "Una palabra que nombra", 
+                "Una palabra que une", 
+                "Una palabra que indica acción"
+            ],
+            "correct_answer": "Una palabra que nombra",
+            "category": "Español"
+        },
+        {
+            "question": "¿Cuántos lados tiene un hexágono?",
+            "image_path": "images/questionMark.png",
+            "options": ["4", "5", "6", "7"],
+            "correct_answer": "6",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué es la fotosíntesis?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Un tipo de música", 
+                "El proceso por el que las plantas hacen su alimento", 
+                "Un método para tomar fotos", 
+                "Un ejercicio de gimnasia"
+            ],
+            "correct_answer": "El proceso por el que las plantas hacen su alimento",
+            "category": "Ciencias"
+        },
+        {
+            "question": "¿Cuál es el número primo más pequeño?",
+            "image_path": "images/questionMark.png",
+            "options": ["0", "1", "2", "3"],
+            "correct_answer": "2",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué es un verbo?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Una palabra que nombra", 
+                "Una palabra que describe", 
+                "Una palabra que indica una acción", 
+                "Una palabra que une"
+            ],
+            "correct_answer": "Una palabra que indica una acción",
+            "category": "Español"
+        },
+        {
+            "question": "¿Cuántos huesos tiene un ser humano?",
+            "image_path": "images/questionMark.png",
+            "options": ["106", "196", "206", "306"],
+            "correct_answer": "206",
+            "category": "Ciencias"
+        },
+        {
+            "question": "¿Qué es una vocal?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Letras que se pueden gritar", 
+                "Letras que se pronuncian con aire libre", 
+                "Letras especiales del alfabeto", 
+                "Letras que unen palabras"
+            ],
+            "correct_answer": "Letras que se pronuncian con aire libre",
+            "category": "Español"
+        },
+        {
+            "question": "¿Cuál es el continente más grande?",
+            "image_path": "images/questionMark.png",
+            "options": ["África", "Europa", "Asia", "América"],
+            "correct_answer": "Asia",
+            "category": "Geografía"
+        },
+        {
+            "question": "¿Qué es un adjetivo?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Una palabra que nombra", 
+                "Una palabra que indica acción", 
+                "Una palabra que describe", 
+                "Una palabra que une"
+            ],
+            "correct_answer": "Una palabra que describe",
+            "category": "Español"
+        },
+        {
+            "question": "¿Cuál es la fórmula de la segunda ley de Newton?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "F = ma", 
+                "E = mc²", 
+                "PV = nRT", 
+                "F = G(m1*m2)/r²"
+            ],
+            "correct_answer": "F = ma",
+            "category": "Física"
+        },
+        {
+            "question": "¿Qué es la paradoja de Fermi?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Problema de la ausencia de evidencia de vida extraterrestre", 
+                "Un teorema de mecánica cuántica", 
+                "Una teoría sobre agujeros negros", 
+                "Un principio de termodinámica"
+            ],
+            "correct_answer": "Problema de la ausencia de evidencia de vida extraterrestre",
+            "category": "Astronomía"
+        },
+        {
+            "question": "¿Qué es un isótopo?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Átomos del mismo elemento con diferente número de neutrones", 
+                "Un tipo de molécula orgánica", 
+                "Un compuesto químico inestable", 
+                "Una partícula subatómica"
+            ],
+            "correct_answer": "Átomos del mismo elemento con diferente número de neutrones",
+            "category": "Química"
+        },
+        {
+            "question": "¿Qué describe el teorema de Gödel?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "La incompletitud de los sistemas formales matemáticos", 
+                "Una teoría de probabilidad", 
+                "Un teorema de geometría", 
+                "Un principio de física cuántica"
+            ],
+            "correct_answer": "La incompletitud de los sistemas formales matemáticos",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué es la epigenética?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Estudio de cambios heredables que no modifican la secuencia de ADN", 
+                "Una rama de la microbiología", 
+                "Un método de clonación", 
+                "Una técnica de modificación genética"
+            ],
+            "correct_answer": "Estudio de cambios heredables que no modifican la secuencia de ADN",
+            "category": "Biología"
+        },
+        {
+            "question": "¿Qué es el principio de incertidumbre de Heisenberg?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "No se puede conocer simultáneamente la posición y momento de una partícula", 
+                "Una teoría sobre agujeros negros", 
+                "Un principio de termodinámica", 
+                "Una ley de la mecánica clásica"
+            ],
+            "correct_answer": "No se puede conocer simultáneamente la posición y momento de una partícula",
+            "category": "Física Cuántica"
+        },
+        {
+            "question": "¿Qué es el PIB?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Valor total de bienes y servicios producidos en un país", 
+                "Un índice de inflación", 
+                "Un tipo de impuesto", 
+                "Una medida de desempleo"
+            ],
+            "correct_answer": "Valor total de bienes y servicios producidos en un país",
+            "category": "Economía"
+        },
+        {
+            "question": "¿Qué es la teoría de juegos?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Estudio matemático de estrategias en situaciones competitivas", 
+                "Un método de análisis psicológico", 
+                "Una técnica de diseño de videojuegos", 
+                "Un principio de economía conductual"
+            ],
+            "correct_answer": "Estudio matemático de estrategias en situaciones competitivas",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué es el efecto Doppler?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Cambio de frecuencia de una onda cuando la fuente y observador se mueven", 
+                "Un fenómeno de interferencia cuántica", 
+                "Una teoría de relatividad", 
+                "Un principio de termodinámica"
+            ],
+            "correct_answer": "Cambio de frecuencia de una onda cuando la fuente y observador se mueven",
+            "category": "Física"
+        },
+        {
+            "question": "¿Qué es un paradigma en investigación científica?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Marco conceptual que define cómo se hace ciencia en un periodo", 
+                "Un método estadístico", 
+                "Una teoría matemática", 
+                "Un principio de experimentación"
+            ],
+            "correct_answer": "Marco conceptual que define cómo se hace ciencia en un periodo",
+            "category": "Filosofía de la Ciencia"
+        },
+        {
+            "question": "¿Qué es la neuroplasticidad?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Capacidad del cerebro de modificar sus conexiones neuronales", 
+                "Un tipo de enfermedad neurológica", 
+                "Un método de cirugía cerebral", 
+                "Una técnica de rehabilitación"
+            ],
+            "correct_answer": "Capacidad del cerebro de modificar sus conexiones neuronales",
+            "category": "Neurociencia"
+        },
+        {
+            "question": "¿Qué es un sistema caótico?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Sistema sensible a condiciones iniciales que genera resultados impredecibles", 
+                "Un tipo de sistema de computación", 
+                "Un modelo matemático lineal", 
+                "Un principio de física cuántica"
+            ],
+            "correct_answer": "Sistema sensible a condiciones iniciales que genera resultados impredecibles",
+            "category": "Matemáticas"
+        },
+        {
+            "question": "¿Qué es la entropía?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Medida de desorden en un sistema termodinámico", 
+                "Un principio de mecánica cuántica", 
+                "Una teoría económica", 
+                "Un método de análisis estadístico"
+            ],
+            "correct_answer": "Medida de desorden en un sistema termodinámico",
+            "category": "Física"
+        },
+        {
+            "question": "¿Qué es un algoritmo de aprendizaje profundo?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Técnica de inteligencia artificial que imita redes neuronales", 
+                "Un método de programación tradicional", 
+                "Una herramienta de análisis estadístico", 
+                "Un tipo de criptografía"
+            ],
+            "correct_answer": "Técnica de inteligencia artificial que imita redes neuronales",
+            "category": "Inteligencia Artificial"
+        },
+        {
+            "question": "¿Qué es la teoría de la relatividad especial?",
+            "image_path": "images/questionMark.png",
+            "options": [
+                "Teoría de Einstein sobre espacio-tiempo y velocidad de la luz", 
+                "Un principio de mecánica cuántica", 
+                "Una teoría astronómica", 
+                "Un modelo de física clásica"
+            ],
+            "correct_answer": "Teoría de Einstein sobre espacio-tiempo y velocidad de la luz",
+            "category": "Física"
+        }        
+        
+    ]
+}
